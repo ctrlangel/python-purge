@@ -2,26 +2,20 @@
 
 An automated Python script designed to organize and clean the chaos in your Linux Downloads folder. It moves loose files into specific subfolders based on their extensions.
 
-## 🚀 How to Install & Use
+## 🚀 How to Run
 
 1. Click the green **Code** button at the top > **Download ZIP** and extract the folder.
-2. Open your Linux terminal inside the extracted folder and run this command once to register the shortcut globally:
+2. Open your terminal inside the extracted folder.
+3. Run the script using Python:
 
 ```bash
-pip install -e .
-```
+# To clean your Downloads folder automatically
+python3 organizador.py
 
-3. Done! Now you can close that terminal and run this single word command from anywhere on your system:
-
-```bash
-# To clean your Downloads automatically
-organizar
-
-# If you regret it and want to undo everything
-organizar --desfazer
+# If you regret it and want to undo the organization
+python3 organizador.py --desfazer
 ```
 
 ## 🛠️ Stack
 - Python 3
 - Linux Native (Arch user btw)
-
