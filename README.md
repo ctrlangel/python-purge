@@ -5,8 +5,9 @@ An automated Python script designed to organize and clean the chaos in your Linu
 ## 🚀 How to Run
 
 1. Click the green **Code** button at the top > **Download ZIP** and extract the folder.
-2. Open your terminal inside the extracted folder.
-3. Run the script using Python:
+2. Open your file manager and enter the extracted folder where `organizador.py` is located.
+3. Right-click any empty space inside that folder and select **"Open in Terminal"** (or "Open in Konsole/Terminal Emulator").
+4. In the terminal window that pops up, simply run:
 
 ```bash
 # To clean your Downloads folder automatically
